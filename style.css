@@ -530,64 +530,166 @@ body {
 
         gap: 8px;
 
-        padding: 10px 12px;
+@media (max-width: 900px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .hra {
+        width: 100%;
+        height: 100dvh;
+        padding: 6px;
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HLAVIČKA */
+
+    .hlavicka {
+        flex: 0 0 36px;
+
+        height: 36px;
+        margin-bottom: 6px;
+
+        display: flex;
+        align-items: center;
+
+        gap: 6px;
+    }
+
+    .hlavicka h1 {
+        width: auto;
+        margin: 0;
+        margin-right: auto;
+
+        font-size: 18px;
+    }
+
+    #kolo,
+    #celkoveSkore {
+        padding: 6px 8px;
+        font-size: 11px;
+    }
+
+
+    /* HERNÍ PLOCHA */
+
+    .herni-plocha {
+        flex: 1;
+        min-height: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 6px;
+
+        height: auto;
+    }
+
+
+    /* FOTKA */
+
+    .fotka {
+        flex: 0 0 29%;
+
+        height: auto;
+        min-height: 0;
+
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+
+    .fotka img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* PRAVÁ STRANA */
+
+    .prava-strana {
+        flex: 1;
+        min-height: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 6px;
+    }
+
+
+    /* MAPA */
+
+    .mapa {
+        flex: 1;
+        min-height: 0;
+
+        height: auto;
 
         border-radius: 10px;
     }
 
+
+    /* POTVRDIT TIP */
+
+    .potvrdit-tip {
+        flex: 0 0 44px;
+
+        height: 44px;
+
+        padding: 8px;
+
+        border-radius: 9px;
+
+        font-size: 14px;
+    }
+
+
+    /* VÝSLEDEK */
+
+    .vysledek {
+        flex: 0 0 64px;
+
+        height: 64px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+
+        gap: 6px;
+        padding: 8px 10px;
+
+        border-radius: 9px;
+    }
+
     .vysledek strong {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .nadpis {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .vysledek button {
-        padding: 10px 12px;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
 
-        font-size: 13px;
+
+    /* ZVĚTŠENÍ FOTKY */
+
+    .zvetsit-fotku {
+        display: none;
     }
 }
-
-/* ========================================
-   ZVĚTŠENÍ FOTOGRAFIE
-   ======================================== */
-
-.zvetsit-fotku {
-    position: absolute;
-
-    right: 12px;
-    bottom: 12px;
-
-    width: 40px;
-    height: 40px;
-
-    border: none;
-    border-radius: 10px;
-
-    background: rgba(0, 0, 0, 0.65);
-    color: white;
-
-    font-size: 22px;
-    line-height: 1;
-
-    cursor: pointer;
-
-    backdrop-filter: blur(5px);
-
-    opacity: 0.85;
-
-    transition:
-        opacity 0.15s ease,
-        transform 0.15s ease;
-}
-
-.zvetsit-fotku:hover {
-    opacity: 1;
-    transform: scale(1.05);
-}
-
 
 /* Overlay */
 
