@@ -577,3 +577,56 @@ function formatujVzdalenost(vzdalenost) {
 // ========================================
 
 noveKolo();
+
+// ========================================
+// ZVĚTŠENÍ FOTOGRAFIE
+// ========================================
+
+const fotografie =
+    document.getElementById("fotografie");
+
+const zvetsitFotku =
+    document.getElementById("zvetsitFotku");
+
+const fotkaOverlay =
+    document.getElementById("fotkaOverlay");
+
+const velkaFotografie =
+    document.getElementById("velkaFotografie");
+
+const zavritFotku =
+    document.getElementById("zavritFotku");
+
+
+// Otevření fotografie
+
+zvetsitFotku.addEventListener("click", function () {
+
+    velkaFotografie.src =
+        fotografie.src;
+
+    fotkaOverlay.classList.remove("skryty");
+
+});
+
+
+// Zavření
+
+zavritFotku.addEventListener("click", function () {
+
+    fotkaOverlay.classList.add("skryty");
+
+});
+
+
+// Kliknutí mimo fotografii také zavře
+
+fotkaOverlay.addEventListener("click", function (event) {
+
+    if (event.target === fotkaOverlay) {
+
+        fotkaOverlay.classList.add("skryty");
+
+    }
+
+});
