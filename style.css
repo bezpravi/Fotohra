@@ -410,10 +410,10 @@ body {
 
     .hra {
     width: 100%;
-    height: 100dvh;
+    height: calc(100dvh - 4px);
     padding: 8px;
     overflow: hidden;
-}
+    }
 
     /* HLAVIČKA */
 
@@ -452,7 +452,7 @@ body {
 
     gap: 6px;
 
-    height: calc(100dvh - 54px);
+    height: calc(100dvh - 58px);
     min-height: 0;
     }
 
