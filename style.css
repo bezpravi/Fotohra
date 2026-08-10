@@ -402,35 +402,140 @@ body {
 
 @media (max-width: 900px) {
 
-    .hra {
-        padding: 15px;
+    body {
+        overflow: hidden;
     }
 
+    .hra {
+        width: 100%;
+        height: 100dvh;
+        padding: 10px;
+    }
+
+    /* HLAVIČKA */
+
     .hlavicka {
-        flex-wrap: wrap;
-        gap: 10px;
+        height: 42px;
+
+        margin-bottom: 8px;
+
+        display: flex;
+        align-items: center;
+
+        gap: 8px;
     }
 
     .hlavicka h1 {
-        width: 100%;
-        margin-bottom: 5px;
+        width: auto;
+        margin: 0;
+        margin-right: auto;
+
+        font-size: 19px;
     }
+
+    #kolo,
+    #celkoveSkore {
+        padding: 7px 9px;
+
+        font-size: 12px;
+    }
+
+
+    /* HERNÍ PLOCHA */
 
     .herni-plocha {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+
+        gap: 8px;
+
+        height: calc(100dvh - 60px);
     }
 
-    .fotka,
-    .mapa {
-        height: 500px;
+
+    /* FOTKA */
+
+    .fotka {
+        flex: 0 0 30%;
+
+        height: auto;
+
+        border-radius: 12px;
     }
+
+    .fotka img {
+        object-fit: contain;
+    }
+
+
+    /* PRAVÁ STRANA */
+
+    .prava-strana {
+        flex: 1;
+
+        min-height: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    /* MAPA */
+
+    .mapa {
+        flex: 1;
+
+        min-height: 0;
+
+        height: auto;
+
+        border-radius: 12px;
+    }
+
+
+    /* POTVRDIT TIP */
+
+    .potvrdit-tip {
+        flex: 0 0 48px;
+
+        padding: 10px;
+
+        border-radius: 10px;
+
+        font-size: 15px;
+    }
+
+
+    /* VÝSLEDEK */
 
     .vysledek {
-        grid-template-columns: 1fr 1fr;
+        flex: 0 0 70px;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr auto;
+
+        gap: 8px;
+
+        padding: 10px 12px;
+
+        border-radius: 10px;
+    }
+
+    .vysledek strong {
+        font-size: 17px;
+    }
+
+    .nadpis {
+        font-size: 10px;
     }
 
     .vysledek button {
-        grid-column: 1 / -1;
+        padding: 10px 12px;
+
+        font-size: 13px;
     }
 }
 ```
