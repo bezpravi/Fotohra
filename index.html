@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Liberec Guessr</title>
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<main class="hra">
+
+    <!-- ========================================
+         HLAVIČKA
+         ======================================== -->
+
+    <header class="hlavicka">
+
+        <h1>Liberec Guessr</h1>
+
+        <div id="kolo">
+            Kolo 1 / 5
+        </div>
+
+        <div id="celkoveSkore">
+            0 bodů
+        </div>
+
+    </header>
+
+
+    <!-- ========================================
+         HERNÍ PLOCHA
+         ======================================== -->
+
+    <div class="herni-plocha">
+
+        <!-- FOTOGRAFIE -->
+
+        <section class="fotka">
+
+            <img
+                id="fotografie"
+                src=""
+                alt="Fotografie"
+            >
+
+        </section>
+
+
+        <!-- MAPA A VÝSLEDEK -->
+
+        <section class="prava-strana">
+
+            <div class="mapa">
+
+                <div id="map"></div>
+
+            </div>
+
+
+            <button
+                id="potvrditTip"
+                class="potvrdit-tip"
+            >
+                Potvrdit tip
+            </button>
+
+
+            <div
+                id="vysledek"
+                class="vysledek skryty"
+            >
+
+                <div>
+
+                    <span class="nadpis">
+                        Vzdálenost
+                    </span>
+
+                    <strong id="vzdalenost">
+                        0 m
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span class="nadpis">
+                        Body
+                    </span>
+
+                    <strong id="skore">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <button id="dalsiKolo">
+                    Další kolo
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ========================================
+         ZÁVĚREČNÁ OBRAZOVKA
+         ======================================== -->
+
+    <section
+        id="konecHry"
+        class="konec-hry skryty"
+    >
+
+        <h2>
+            Konec hry
+        </h2>
+
+
+        <p class="finalni-skore">
+
+            <span>
+                Tvoje skóre
+            </span>
+
+            <strong id="finalniSkore">
+                0
+            </strong>
+
+            <small id="maxSkore">
+                / 25 000
+            </small>
+
+        </p>
+
+
+        <p class="prumer">
+
+            Průměr na kolo:
+
+            <strong id="prumerSkore">
+                0
+            </strong>
+
+            bodů
+
+        </p>
+
+
+        <div
+            id="prehledKol"
+            class="prehled-kol"
+        >
+        </div>
+
+
+        <button id="novaHra">
+            Hrát znovu
+        </button>
+
+    </section>
+
+</main>
+
+
+<!-- ========================================
+     JAVASCRIPT
+     ======================================== -->
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
