@@ -466,6 +466,14 @@ body {
         border-radius: 12px;
     }
 
+    .fotka {
+    cursor: pointer;
+}
+
+.zvetsit-fotku {
+    display: none;
+}
+
     .fotka img {
         object-fit: contain;
     }
