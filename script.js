@@ -644,3 +644,15 @@ fotkaOverlay.addEventListener("click", function (event) {
     }
 
 });
+
+// Kliknutí na zvětšenou fotografii ji na mobilu zase zmenší
+
+velkaFotografie.addEventListener("click", function () {
+
+    if (window.innerWidth <= 900) {
+
+        fotkaOverlay.classList.add("skryty");
+
+    }
+
+});
