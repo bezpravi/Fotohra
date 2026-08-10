@@ -609,6 +609,20 @@ zvetsitFotku.addEventListener("click", function () {
 
 });
 
+// Zvětšení fotografie na mobilu kliknutím kamkoliv na fotku
+
+fotografie.addEventListener("click", function () {
+
+    if (window.innerWidth <= 900) {
+
+        velkaFotografie.src = fotografie.src;
+
+        fotkaOverlay.classList.remove("skryty");
+
+    }
+
+});
+
 
 // Zavření
 
