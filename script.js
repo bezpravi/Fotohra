@@ -516,35 +516,18 @@ function spocitejBody(vzdalenost) {
         return 1000;
     }
 
-    if (vzdalenost <= 250) {
-        return 800;
+    if (vzdalenost >= 5000) {
+        return 0;
     }
 
-    if (vzdalenost <= 500) {
-        return 600;
-    }
+    const body =
+        1000 *
+        Math.pow(
+            1 - (vzdalenost - 50) / 4950,
+            2
+        );
 
-    if (vzdalenost <= 1000) {
-        return 500;
-    }
-
-    if (vzdalenost <= 2000) {
-        return 400;
-    }
-
-    if (vzdalenost <= 3000) {
-        return 300;
-    }
-
-    if (vzdalenost <= 5000) {
-        return 200;
-    }
-
-    if (vzdalenost <= 10000) {
-        return 100;
-    }
-
-    return 0;
+    return Math.round(body);
 }
 
 
