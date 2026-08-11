@@ -1,4 +1,4 @@
-```js
+
 // ========================================
 // FOTOGRAFIE
 // ========================================
@@ -854,4 +854,4 @@ velkaFotografie.addEventListener("click", function () {
         fotkaOverlay.classList.add("skryty");
     }
 });
-```
+
