@@ -1,3 +1,4 @@
+```js
 // ========================================
 // FOTOGRAFIE
 // ========================================
@@ -82,9 +83,214 @@ const mista = [
         foto: "fotky/16.jpg",
         lat: 50.7811128,
         lng: 15.0693658
+    },
+    {
+        foto: "fotky/17.jpg",
+        lat: 50.7431797,
+        lng: 15.0863689
+    },
+    {
+        foto: "fotky/18.jpg",
+        lat: 50.7734075,
+        lng: 15.0614786
+    },
+    {
+        foto: "fotky/19.jpg",
+        lat: 50.76506,
+        lng: 15.05768
+    },
+    {
+        foto: "fotky/20.jpg",
+        lat: 50.76741,
+        lng: 15.056
+    },
+    {
+        foto: "fotky/21.jpg",
+        lat: 50.76843,
+        lng: 15.05454
+    },
+    {
+        foto: "fotky/22.jpg",
+        lat: 50.77097,
+        lng: 15.05139
+    },
+    {
+        foto: "fotky/23.jpg",
+        lat: 50.7761,
+        lng: 15.04888
+    },
+    {
+        foto: "fotky/24.jpg",
+        lat: 50.77548,
+        lng: 15.03483
+    },
+    {
+        foto: "fotky/25.jpg",
+        lat: 50.77111,
+        lng: 15.0342
+    },
+    {
+        foto: "fotky/26.jpg",
+        lat: 50.75932,
+        lng: 15.03851
+    },
+    {
+        foto: "fotky/27.jpg",
+        lat: 50.75658,
+        lng: 15.04307
+    },
+    {
+        foto: "fotky/28.jpg",
+        lat: 50.76181,
+        lng: 15.04742
+    },
+    {
+        foto: "fotky/29.jpg",
+        lat: 50.7623,
+        lng: 15.04845
+    },
+    {
+        foto: "fotky/30.jpg",
+        lat: 50.76584,
+        lng: 15.05259
+    },
+    {
+        foto: "fotky/31.jpg",
+        lat: 50.76577,
+        lng: 15.05371
+    },
+    {
+        foto: "fotky/32.jpg",
+        lat: 50.76671,
+        lng: 15.05454
+    },
+    {
+        foto: "fotky/33.jpg",
+        lat: 50.76719,
+        lng: 15.05543
+    },
+    {
+        foto: "fotky/34.jpg",
+        lat: 50.76711,
+        lng: 15.05626
+    },
+    {
+        foto: "fotky/35.jpg",
+        lat: 50.76785,
+        lng: 15.05703
+    },
+    {
+        foto: "fotky/36.jpg",
+        lat: 50.76901,
+        lng: 15.05725
+    },
+    {
+        foto: "fotky/37.jpg",
+        lat: 50.76851,
+        lng: 15.06052
+    },
+    {
+        foto: "fotky/38.jpg",
+        lat: 50.76848,
+        lng: 15.06044
+    },
+    {
+        foto: "fotky/39.jpg",
+        lat: 50.75794,
+        lng: 15.05999
+    },
+    {
+        foto: "fotky/40.jpg",
+        lat: 50.76028,
+        lng: 15.05258
+    },
+    {
+        foto: "fotky/41.jpg",
+        lat: 50.76024,
+        lng: 15.05247
+    },
+    {
+        foto: "fotky/42.jpg",
+        lat: 50.75997,
+        lng: 15.05226
+    },
+    {
+        foto: "fotky/43.jpg",
+        lat: 50.76603,
+        lng: 15.05767
+    },
+    {
+        foto: "fotky/44.jpg",
+        lat: 50.76776,
+        lng: 15.05804
+    },
+    {
+        foto: "fotky/45.jpg",
+        lat: 50.7689,
+        lng: 15.05836
+    },
+    {
+        foto: "fotky/46.jpg",
+        lat: 50.76925,
+        lng: 15.05793
+    },
+    {
+        foto: "fotky/47.jpg",
+        lat: 50.77108,
+        lng: 15.056
+    },
+    {
+        foto: "fotky/48.jpg",
+        lat: 50.77063,
+        lng: 15.05825
+    },
+    {
+        foto: "fotky/49.jpg",
+        lat: 50.77097,
+        lng: 15.0593
+    },
+    {
+        foto: "fotky/50.jpg",
+        lat: 50.77173,
+        lng: 15.05899
+    },
+    {
+        foto: "fotky/51.jpg",
+        lat: 50.77407,
+        lng: 15.06171
+    },
+    {
+        foto: "fotky/52.jpg",
+        lat: 50.77479,
+        lng: 15.06212
+    },
+    {
+        foto: "fotky/53.jpg",
+        lat: 50.7742,
+        lng: 15.06469
+    },
+    {
+        foto: "fotky/54.jpg",
+        lat: 50.77443,
+        lng: 15.0713
+    },
+    {
+        foto: "fotky/55.jpg",
+        lat: 50.7761,
+        lng: 15.07428
+    },
+    {
+        foto: "fotky/56.jpg",
+        lat: 50.77648,
+        lng: 15.07771
+    },
+    {
+        foto: "fotky/57.jpg",
+        lat: 50.77772,
+        lng: 15.0812
     }
-    foto: "fotky/17.jpg", lat: 50.7431797, lng: 15.0863689 }, { foto: "fotky/18.jpg", lat: 50.7734075, lng: 15.0614786 }, { foto: "fotky/19.jpg", lat: 50.76506, lng: 15.05768 }, { foto: "fotky/20.jpg", lat: 50.76741, lng: 15.056 }, { foto: "fotky/21.jpg", lat: 50.76843, lng: 15.05454 }, { foto: "fotky/22.jpg", lat: 50.77097, lng: 15.05139 }, { foto: "fotky/23.jpg", lat: 50.7761, lng: 15.04888 }, { foto: "fotky/24.jpg", lat: 50.77548, lng: 15.03483 }, { foto: "fotky/25.jpg", lat: 50.77111, lng: 15.0342 }, { foto: "fotky/26.jpg", lat: 50.75932, lng: 15.03851 }, { foto: "fotky/27.jpg", lat: 50.75658, lng: 15.04307 }, { foto: "fotky/28.jpg", lat: 50.76181, lng: 15.04742 }, { foto: "fotky/29.jpg", lat: 50.7623, lng: 15.04845 }, { foto: "fotky/30.jpg", lat: 50.76584, lng: 15.05259 }, { foto: "fotky/31.jpg", lat: 50.76577, lng: 15.05371 }, { foto: "fotky/32.jpg", lat: 50.76671, lng: 15.05454 }, { foto: "fotky/33.jpg", lat: 50.76719, lng: 15.05543 }, { foto: "fotky/34.jpg", lat: 50.76711, lng: 15.05626 }, { foto: "fotky/35.jpg", lat: 50.76785, lng: 15.05703 }, { foto: "fotky/36.jpg", lat: 50.76901, lng: 15.05725 }, { foto: "fotky/37.jpg", lat: 50.76851, lng: 15.06052 }, { foto: "fotky/38.jpg", lat: 50.76848, lng: 15.06044 }, { foto: "fotky/39.jpg", lat: 50.75794, lng: 15.05999 }, { foto: "fotky/40.jpg", lat: 50.76028, lng: 15.05258 }, { foto: "fotky/41.jpg", lat: 50.76024, lng: 15.05247 }, { foto: "fotky/42.jpg", lat: 50.75997, lng: 15.05226 }, { foto: "fotky/43.jpg", lat: 50.76603, lng: 15.05767 }, { foto: "fotky/44.jpg", lat: 50.76776, lng: 15.05804 }, { foto: "fotky/45.jpg", lat: 50.7689, lng: 15.05836 }, { foto: "fotky/46.jpg", lat: 50.76925, lng: 15.05793 }, { foto: "fotky/47.jpg", lat: 50.77108, lng: 15.056 }, { foto: "fotky/48.jpg", lat: 50.77063, lng: 15.05825 }, { foto: "fotky/49.jpg", lat: 50.77097, lng: 15.0593 }, { foto: "fotky/50.jpg", lat: 50.77173, lng: 15.05899 }, { foto: "fotky/51.jpg", lat: 50.77407, lng: 15.06171 }, { foto: "fotky/52.jpg", lat: 50.77479, lng: 15.06212 }, { foto: "fotky/53.jpg", lat: 50.7742, lng: 15.06469 }, { foto: "fotky/54.jpg", lat: 50.77443, lng: 15.0713 }, { foto: "fotky/55.jpg", lat: 50.7761, lng: 15.07428 }, { foto: "fotky/56.jpg", lat: 50.77648, lng: 15.07771 }, { foto: "fotky/57.jpg", lat: 50.77772, lng: 15.0812 }
 ];
+
 
 // ========================================
 // NASTAVENÍ HRY
@@ -116,6 +322,7 @@ let odpovezeno = false;
 
 let tipLat = null;
 let tipLon = null;
+
 let vysledkyKol = [];
 
 
@@ -145,24 +352,17 @@ function noveKolo() {
     tipLon = null;
 
 
-    // Pokud už nejsou žádná místa,
-    // hra začne znovu s celým seznamem.
     if (dostupnaMista.length === 0) {
         dostupnaMista = [...mista];
     }
 
 
-    // Náhodné místo
     const index = Math.floor(
         Math.random() * dostupnaMista.length
     );
 
-
     misto = dostupnaMista[index];
 
-
-    // Odstraníme ho ze seznamu,
-    // aby se v této hře neopakovalo.
     dostupnaMista.splice(index, 1);
 
 
@@ -179,7 +379,7 @@ function noveKolo() {
         `Kolo ${aktualniKolo} / ${POCET_KOL}`;
 
 
-    // Aktualizujeme celkové skóre
+    // Aktualizujeme skóre
     document
         .getElementById("celkoveSkore")
         .textContent =
@@ -216,7 +416,7 @@ function noveKolo() {
         .classList.add("skryty");
 
 
-    // Znovu zobrazíme potvrzení
+    // Zobrazíme potvrzení
     document
         .getElementById("potvrditTip")
         .classList.remove("skryty");
@@ -238,7 +438,6 @@ map.on("click", function (e) {
     tipLon = e.latlng.lng;
 
 
-    // Přesuneme hráčův marker
     if (hracuvMarker) {
         map.removeLayer(hracuvMarker);
     }
@@ -271,10 +470,10 @@ document
 
 
         // Správné místo
-      spravnyMarker = L.marker([
-    misto.lat,
-    misto.lng
-]).addTo(map);
+        spravnyMarker = L.marker([
+            misto.lat,
+            misto.lng
+        ]).addTo(map);
 
 
         // Spojovací čára
@@ -299,9 +498,11 @@ document
             spocitejBody(vzdalenost);
 
 
-        // Přidáme body do celkového skóre
+        // Přidáme body
         celkoveSkore += body;
-vysledkyKol.push(body);
+
+        vysledkyKol.push(body);
+
 
         // Zobrazíme výsledek
         document
@@ -354,10 +555,6 @@ document
         aktualniKolo++;
 
 
-        // ========================================
-        // KONEC HRY
-        // ========================================
-
         if (aktualniKolo > POCET_KOL) {
 
             zobrazKonecHry();
@@ -366,22 +563,21 @@ document
         }
 
 
-        // ========================================
-        // DALŠÍ KOLO
-        // ========================================
-
         noveKolo();
     });
 
-    function zobrazKonecHry() {
 
-    // Schováme herní plochu
+// ========================================
+// KONEC HRY
+// ========================================
+
+function zobrazKonecHry() {
+
     document
         .querySelector(".herni-plocha")
         .classList.add("skryty");
 
 
-    // Zobrazíme závěrečnou obrazovku
     document
         .getElementById("konecHry")
         .classList.remove("skryty");
@@ -406,6 +602,7 @@ document
         Math.round(
             celkoveSkore / POCET_KOL
         );
+
 
     document
         .getElementById("prumerSkore")
@@ -437,6 +634,11 @@ document
         prehled.appendChild(radek);
     });
 }
+
+
+// ========================================
+// NOVÁ HRA
+// ========================================
 
 document
     .getElementById("novaHra")
@@ -513,20 +715,26 @@ function spocitejVzdalenost(
 
 function spocitejBody(vzdalenost) {
 
+    // Do 50 metrů = plný počet
     if (vzdalenost <= 50) {
         return 1000;
     }
 
+
+    // Od 5 km = nula
     if (vzdalenost >= 5000) {
         return 0;
     }
 
+
+    // Plynulý pokles mezi 50 m a 5 km
     const body =
         1000 *
         Math.pow(
             1 - (vzdalenost - 50) / 4950,
             2
         );
+
 
     return Math.round(body);
 }
@@ -562,6 +770,7 @@ function formatujVzdalenost(vzdalenost) {
 
 noveKolo();
 
+
 // ========================================
 // ZVĚTŠENÍ FOTOGRAFIE
 // ========================================
@@ -582,7 +791,9 @@ const zavritFotku =
     document.getElementById("zavritFotku");
 
 
-// Otevření fotografie
+// ========================================
+// OTEVŘENÍ FOTOGRAFIE
+// ========================================
 
 zvetsitFotku.addEventListener("click", function () {
 
@@ -590,53 +801,57 @@ zvetsitFotku.addEventListener("click", function () {
         fotografie.src;
 
     fotkaOverlay.classList.remove("skryty");
-
 });
 
-// Zvětšení fotografie na mobilu kliknutím kamkoliv na fotku
+
+// ========================================
+// OTEVŘENÍ FOTOGRAFIE NA MOBILU
+// ========================================
 
 fotografie.addEventListener("click", function () {
 
     if (window.innerWidth <= 900) {
 
-        velkaFotografie.src = fotografie.src;
+        velkaFotografie.src =
+            fotografie.src;
 
         fotkaOverlay.classList.remove("skryty");
-
     }
-
 });
 
 
-// Zavření
+// ========================================
+// ZAVŘENÍ TLAČÍTKEM
+// ========================================
 
 zavritFotku.addEventListener("click", function () {
 
     fotkaOverlay.classList.add("skryty");
-
 });
 
 
-// Kliknutí mimo fotografii také zavře
+// ========================================
+// ZAVŘENÍ KLIKNUTÍM MIMO FOTOGRAFII
+// ========================================
 
 fotkaOverlay.addEventListener("click", function (event) {
 
     if (event.target === fotkaOverlay) {
 
         fotkaOverlay.classList.add("skryty");
-
     }
-
 });
 
-// Kliknutí na zvětšenou fotografii ji na mobilu zase zmenší
+
+// ========================================
+// ZAVŘENÍ KLIKNUTÍM NA FOTOGRAFII
+// ========================================
 
 velkaFotografie.addEventListener("click", function () {
 
     if (window.innerWidth <= 900) {
 
         fotkaOverlay.classList.add("skryty");
-
     }
-
 });
+```
