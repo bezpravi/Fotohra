@@ -761,4 +761,57 @@ body {
         height: auto;
     }
 }
+
+/* ========================================
+   ZVĚTŠENÍ FOTOGRAFIE – DESKTOP
+   ======================================== */
+
+.zvetsit-fotku {
+    position: absolute;
+
+    top: 14px;
+    right: 14px;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+
+    font-size: 22px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    backdrop-filter: blur(4px);
+
+    transition:
+        background 0.15s ease,
+        transform 0.1s ease;
+}
+
+.zvetsit-fotku:hover {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.zvetsit-fotku:active {
+    transform: scale(0.95);
+}
+
+
+/* ========================================
+   MOBIL – TLAČÍTKO SCHOVAT
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    .zvetsit-fotku {
+        display: none;
+    }
+}
 ```
