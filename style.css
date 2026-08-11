@@ -398,6 +398,7 @@ body {
 }
 
 
+```css
 /* ========================================
    MOBIL
    ======================================== */
@@ -407,15 +408,21 @@ body {
     html,
     body {
         width: 100%;
+        max-width: 100%;
         height: 100%;
         margin: 0;
+        padding: 0;
         overflow: hidden;
     }
 
     .hra {
         width: 100%;
+        max-width: 100%;
         height: 100dvh;
+
+        margin: 0;
         padding: 6px;
+
         overflow: hidden;
 
         display: flex;
@@ -423,10 +430,16 @@ body {
     }
 
 
-    /* HLAVIČKA */
+    /* ========================================
+       HLAVIČKA
+       ======================================== */
 
     .hlavicka {
         flex: 0 0 36px;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
 
         height: 36px;
         margin-bottom: 6px;
@@ -438,25 +451,39 @@ body {
     }
 
     .hlavicka h1 {
-        width: auto;
+        min-width: 0;
+
         margin: 0;
         margin-right: auto;
 
         font-size: 18px;
+
+        white-space: nowrap;
     }
 
     #kolo,
     #celkoveSkore {
+        flex-shrink: 1;
+        min-width: 0;
+
         padding: 6px 8px;
 
         font-size: 11px;
+
+        white-space: nowrap;
     }
 
 
-    /* HERNÍ PLOCHA */
+    /* ========================================
+       HERNÍ PLOCHA
+       ======================================== */
 
     .herni-plocha {
         flex: 1;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         min-height: 0;
 
         display: flex;
@@ -466,13 +493,19 @@ body {
     }
 
 
-    /* FOTKA */
+    /* ========================================
+       FOTKA
+       ======================================== */
 
     .fotka {
         flex: 0 0 29%;
 
-        height: auto;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         min-height: 0;
+
+        height: auto;
 
         border-radius: 10px;
 
@@ -480,17 +513,30 @@ body {
     }
 
     .fotka img {
+        display: block;
+
         width: 100%;
+        max-width: 100%;
         height: 100%;
 
         object-fit: contain;
     }
 
+    .zvetsit-fotku {
+        display: none;
+    }
 
-    /* PRAVÁ STRANA */
+
+    /* ========================================
+       PRAVÁ STRANA
+       ======================================== */
 
     .prava-strana {
         flex: 1;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         min-height: 0;
 
         display: flex;
@@ -500,10 +546,16 @@ body {
     }
 
 
-    /* MAPA */
+    /* ========================================
+       MAPA
+       ======================================== */
 
     .mapa {
         flex: 1;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         min-height: 0;
 
         height: auto;
@@ -511,11 +563,22 @@ body {
         border-radius: 10px;
     }
 
+    #map {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
 
-    /* POTVRDIT TIP */
+
+    /* ========================================
+       POTVRDIT TIP
+       ======================================== */
 
     .potvrdit-tip {
         flex: 0 0 44px;
+
+        width: 100%;
+        max-width: 100%;
 
         height: 44px;
 
@@ -527,16 +590,22 @@ body {
     }
 
 
-    /* VÝSLEDEK */
+    /* ========================================
+       VÝSLEDEK
+       ======================================== */
 
     .vysledek {
         flex: 0 0 64px;
+
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
 
         height: 64px;
 
         display: grid;
 
-        grid-template-columns: 1fr 1fr auto;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
 
         gap: 6px;
 
@@ -554,18 +623,15 @@ body {
     }
 
     .vysledek button {
+        max-width: 100%;
+
         padding: 8px 10px;
 
         font-size: 12px;
     }
-
-
-    /* ZVĚTŠENÍ FOTKY */
-
-    .zvetsit-fotku {
-        display: none;
-    }
 }
+```
+
 
 /* Overlay */
 
