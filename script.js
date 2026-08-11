@@ -7,287 +7,344 @@ const mista = [
     {
         foto: "fotky/01.jpg",
         lat: 50.7804792,
-        lng: 15.0832603
+        lng: 15.0832603,
+        popis: "amfiteátr v Lidových sadech"
     },
     {
         foto: "fotky/02.jpg",
         lat: 50.7637114,
-        lng: 15.0652561
+        lng: 15.0652561,
+        popis: "bourání Blaupunktu (součást Textilany)"
     },
     {
         foto: "fotky/03.jpg",
         lat: 50.7518517,
-        lng: 15.0643269
+        lng: 15.0643269,
+        popis: "podchod v ulici Dobiášova"
     },
     {
         foto: "fotky/04.jpg",
         lat: 50.7706022,
-        lng: 15.0580956
+        lng: 15.0580956,
+        popis: "kavárna Pošta"
     },
     {
         foto: "fotky/05.jpg",
         lat: 50.7426642,
-        lng: 15.0589222
+        lng: 15.0589222,
+        popis: "bývalá čerpací stanice v ulici Hodkovická"
     },
     {
         foto: "fotky/06.jpg",
         lat: 50.7600583,
-        lng: 15.0700569
+        lng: 15.0700569,
+        popis: "obchodní dům Korint na sídlišti Broumovská"
     },
     {
         foto: "fotky/07.jpg",
         lat: 50.7611903,
-        lng: 15.0956367
+        lng: 15.0956367,
+        popis: "obchodní dům Luna na sídlišti Kunratická"
     },
     {
         foto: "fotky/08.jpg",
         lat: 50.7941397,
-        lng: 15.0884750
+        lng: 15.0884750,
+        popis: "ruprechtický lom"
     },
     {
         foto: "fotky/09.jpg",
         lat: 50.7623692,
-        lng: 15.0498803
+        lng: 15.0498803,
+        popis: "vozovna tramvají"
     },
     {
         foto: "fotky/10.jpg",
         lat: 50.7636708,
-        lng: 15.0469358
+        lng: 15.0469358,
+        popis: "stánek na autobusovém nádraží"
     },
     {
         foto: "fotky/11.jpg",
         lat: 50.7507828,
-        lng: 15.0327925
+        lng: 15.0327925,
+        popis: "obchodní dům Horizont na sídlišti Gagarinova"
     },
     {
         foto: "fotky/12.jpg",
         lat: 50.7510283,
-        lng: 15.0340239
+        lng: 15.0340239,
+        popis: "obchodní dům Horizont na sídlišti Gagarinova"
     },
     {
         foto: "fotky/13.jpg",
         lat: 50.7534103,
-        lng: 15.0331458
+        lng: 15.0331458,
+        popis: "nádraží Liberec-Horní Růžodol"
     },
     {
         foto: "fotky/14.jpg",
         lat: 50.7736722,
-        lng: 14.9836494
+        lng: 14.9836494,
+        popis: "nádraží Karlov pod Ještědem"
     },
     {
         foto: "fotky/15.jpg",
         lat: 50.7355914,
-        lng: 15.0010286
+        lng: 15.0010286,
+        popis: "bývalá stanice lanovky Horní Hanychov"
     },
     {
         foto: "fotky/16.jpg",
         lat: 50.7811128,
-        lng: 15.0693658
+        lng: 15.0693658,
+        popis: "obchodní dům v Horské ulici"
     },
     {
         foto: "fotky/17.jpg",
         lat: 50.7431797,
-        lng: 15.0863689
+        lng: 15.0863689,
+        popis: "bývalý přejezd v ulici Rumburská (bývalá továrna na koberce)"
     },
     {
         foto: "fotky/18.jpg",
         lat: 50.7734075,
-        lng: 15.0614786
+        lng: 15.0614786,
+        popis: "Tržní náměstí"
     },
     {
         foto: "fotky/19.jpg",
         lat: 50.76506,
-        lng: 15.05768
+        lng: 15.05768,
+        popis: "socha želvy na terminálu MHD Fügnerova"
     },
     {
         foto: "fotky/20.jpg",
         lat: 50.76741,
-        lng: 15.056
+        lng: 15.056,
+        popis: "sbírka kanálových poklopů v ulici Široká"
     },
     {
         foto: "fotky/21.jpg",
         lat: 50.76843,
-        lng: 15.05454
+        lng: 15.05454,
+        popis: "boty před barem Stereo"
     },
     {
         foto: "fotky/22.jpg",
         lat: 50.77097,
-        lng: 15.05139
+        lng: 15.05139,
+        popis: "řeznictví v ulici Valdštejnská"
     },
     {
         foto: "fotky/23.jpg",
         lat: 50.7761,
-        lng: 15.04888
+        lng: 15.04888,
+        popis: "cyklostezka u stadionu U Nisy"
     },
     {
         foto: "fotky/24.jpg",
         lat: 50.77548,
-        lng: 15.03483
+        lng: 15.03483,
+        popis: "grafitti na křižovatce „Sněhulák“"
     },
     {
         foto: "fotky/25.jpg",
         lat: 50.77111,
-        lng: 15.0342
+        lng: 15.0342,
+        popis: "Gymnázium F. X. Šaldy"
     },
     {
         foto: "fotky/26.jpg",
         lat: 50.75932,
-        lng: 15.03851
+        lng: 15.03851,
+        popis: "bytový dům v ulici Americká"
     },
     {
         foto: "fotky/27.jpg",
         lat: 50.75658,
-        lng: 15.04307
+        lng: 15.04307,
+        popis: "Dělnická pekárna v ulici Hanychovská"
     },
     {
         foto: "fotky/28.jpg",
         lat: 50.76181,
-        lng: 15.04742
+        lng: 15.04742,
+        popis: "socha Dívka s holubicí před nádražím"
     },
     {
         foto: "fotky/29.jpg",
         lat: 50.7623,
-        lng: 15.04845
+        lng: 15.04845,
+        popis: "ukazatel směru na vyhlídce v ulici 1. máje"
     },
     {
         foto: "fotky/30.jpg",
         lat: 50.76584,
-        lng: 15.05259
+        lng: 15.05259,
+        popis: "terasa restaurace Stamina"
     },
     {
         foto: "fotky/31.jpg",
         lat: 50.76577,
-        lng: 15.05371
+        lng: 15.05371,
+        popis: "fontána v ulici Jánská"
     },
     {
         foto: "fotky/32.jpg",
         lat: 50.76671,
-        lng: 15.05454
+        lng: 15.05454,
+        popis: "plastika Věčná něha v ulici 1. máje"
     },
     {
         foto: "fotky/33.jpg",
         lat: 50.76719,
-        lng: 15.05543
+        lng: 15.05543,
+        popis: "palác Nisa na Soukenném náměstí"
     },
     {
         foto: "fotky/34.jpg",
         lat: 50.76711,
-        lng: 15.05626
+        lng: 15.05626,
+        popis: "obchodní dům Baťa na Soukenném náměstí"
     },
     {
         foto: "fotky/35.jpg",
         lat: 50.76785,
-        lng: 15.05703
+        lng: 15.05703,
+        popis: "obchodní dům Brouk a Babka v ulici Pražská"
     },
     {
         foto: "fotky/36.jpg",
         lat: 50.76901,
-        lng: 15.05725
+        lng: 15.05725,
+        popis: "ulice Lazebnický vrch"
     },
     {
         foto: "fotky/37.jpg",
         lat: 50.76851,
-        lng: 15.06052
+        lng: 15.06052,
+        popis: "socha Koule v ulici Gutenbergova"
     },
     {
         foto: "fotky/38.jpg",
         lat: 50.76848,
-        lng: 15.06044
+        lng: 15.06044,
+        popis: "obchodní dům Plaza v Palachově ulici"
     },
     {
         foto: "fotky/39.jpg",
         lat: 50.75794,
-        lng: 15.05999
+        lng: 15.05999,
+        popis: "reklamní poutač na zoo v ulici Dr. Milady Horákové"
     },
     {
         foto: "fotky/40.jpg",
         lat: 50.76028,
-        lng: 15.05258
+        lng: 15.05258,
+        popis: "socha lva před Centrem Babylon"
     },
     {
         foto: "fotky/41.jpg",
         lat: 50.76024,
-        lng: 15.05247
+        lng: 15.05247,
+        popis: "socha v Centru Babylon"
     },
     {
         foto: "fotky/42.jpg",
         lat: 50.75997,
-        lng: 15.05226
+        lng: 15.05226,
+        popis: "herní automat v Centru Babylon"
     },
     {
         foto: "fotky/43.jpg",
         lat: 50.76603,
-        lng: 15.05767
+        lng: 15.05767,
+        popis: "obchodní centrum LBC v ulici Fügnerova"
     },
     {
         foto: "fotky/44.jpg",
         lat: 50.76776,
-        lng: 15.05804
+        lng: 15.05804,
+        popis: "Naivní divadlo Liberec"
     },
     {
         foto: "fotky/45.jpg",
         lat: 50.7689,
-        lng: 15.05836
+        lng: 15.05836,
+        popis: "bývalá tramvajová trať v ulici Moskevská"
     },
     {
         foto: "fotky/46.jpg",
         lat: 50.76925,
-        lng: 15.05793
+        lng: 15.05793,
+        popis: "Neptunova kašna na náměstí Dr. E. Beneše"
     },
     {
         foto: "fotky/47.jpg",
         lat: 50.77108,
-        lng: 15.056
+        lng: 15.056,
+        popis: "socha před Základní uměleckou školou"
     },
     {
         foto: "fotky/48.jpg",
         lat: 50.77063,
-        lng: 15.05825
+        lng: 15.05825,
+        popis: "Divadlo F. X. Šaldy"
     },
     {
         foto: "fotky/49.jpg",
         lat: 50.77097,
-        lng: 15.0593
+        lng: 15.0593,
+        popis: "zastávka Hostina obrů"
     },
     {
         foto: "fotky/50.jpg",
         lat: 50.77173,
-        lng: 15.05899
+        lng: 15.05899,
+        popis: "Krajská vědecká knihovna"
     },
     {
         foto: "fotky/51.jpg",
         lat: 50.77407,
-        lng: 15.06171
+        lng: 15.06171,
+        popis: "bývalá trafika na zastávce Tržní náměstí"
     },
     {
         foto: "fotky/52.jpg",
         lat: 50.77479,
-        lng: 15.06212
+        lng: 15.06212,
+        popis: "reklamní poutač před supermarketem Albert na Tržním náměstí"
     },
     {
         foto: "fotky/53.jpg",
         lat: 50.7742,
-        lng: 15.06469
+        lng: 15.06469,
+        popis: "lokomotiva v Technickém muzeu"
     },
     {
         foto: "fotky/54.jpg",
         lat: 50.77443,
-        lng: 15.0713
+        lng: 15.0713,
+        popis: "park v areálu Residence Park Masarykova"
     },
     {
         foto: "fotky/55.jpg",
         lat: 50.7761,
-        lng: 15.07428
+        lng: 15.07428,
+        popis: "brána v ulici U Zoologické zahrady"
     },
     {
         foto: "fotky/56.jpg",
         lat: 50.77648,
-        lng: 15.07771
+        lng: 15.07771,
+        popis: "fontána v Lidových sadech"
     },
     {
         foto: "fotky/57.jpg",
         lat: 50.77772,
-        lng: 15.0812
+        lng: 15.0812,
+        popis: "Zoologická zahrada"
     }
 ];
 
