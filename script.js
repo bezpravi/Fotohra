@@ -521,7 +521,10 @@ document
             .getElementById("celkoveSkore")
             .textContent =
             `${celkoveSkore.toLocaleString("cs-CZ")} bodů`;
-
+document
+    .getElementById("popisFotky")
+    .textContent =
+    `Na fotce je ${misto.popis}`;
 
         document
             .getElementById("vysledek")
