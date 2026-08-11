@@ -404,134 +404,6 @@ body {
 
 @media (max-width: 900px) {
 
-    body {
-        overflow: hidden;
-    }
-
-    .hra {
-    width: 100%;
-    height: calc(100dvh - 4px);
-    padding: 8px;
-    overflow: hidden;
-    }
-
-    /* HLAVIČKA */
-
-    .hlavicka {
-        height: 38px;
-
-        margin-bottom: 8px;
-
-        display: flex;
-        align-items: center;
-
-        gap: 8px;
-    }
-
-    .hlavicka h1 {
-        width: auto;
-        margin: 0;
-        margin-right: auto;
-
-        font-size: 19px;
-    }
-
-    #kolo,
-    #celkoveSkore {
-        padding: 7px 9px;
-
-        font-size: 12px;
-    }
-
-
-    /* HERNÍ PLOCHA */
-
-    .herni-plocha {
-    display: flex;
-    flex-direction: column;
-
-    gap: 6px;
-
-    height: calc(100dvh - 58px);
-    min-height: 0;
-    }
-
-    /* FOTKA */
-
-    .fotka {
-        flex: 0 0 30%;
-
-        height: auto;
-
-        border-radius: 12px;
-    }
-
-    .fotka {
-    cursor: pointer;
-}
-
-.zvetsit-fotku {
-    display: none;
-}
-
-    .fotka img {
-        object-fit: contain;
-    }
-
-
-    /* PRAVÁ STRANA */
-
-    .prava-strana {
-        flex: 1;
-
-        min-height: 0;
-
-        display: flex;
-        flex-direction: column;
-
-        gap: 8px;
-    }
-
-
-    /* MAPA */
-
-    .mapa {
-        flex: 1;
-
-        min-height: 0;
-
-        height: auto;
-
-        border-radius: 12px;
-    }
-
-
-    /* POTVRDIT TIP */
-
-    .potvrdit-tip {
-        flex: 0 0 48px;
-
-        padding: 10px;
-
-        border-radius: 10px;
-
-        font-size: 15px;
-    }
-
-
-    /* VÝSLEDEK */
-
-    .vysledek {
-        flex: 0 0 70px;
-
-        display: grid;
-
-        grid-template-columns: 1fr 1fr auto;
-
-        gap: 8px;
-
-@media (max-width: 900px) {
-
     html,
     body {
         width: 100%;
@@ -549,6 +421,7 @@ body {
         display: flex;
         flex-direction: column;
     }
+
 
     /* HLAVIČKA */
 
@@ -575,6 +448,7 @@ body {
     #kolo,
     #celkoveSkore {
         padding: 6px 8px;
+
         font-size: 11px;
     }
 
@@ -589,8 +463,6 @@ body {
         flex-direction: column;
 
         gap: 6px;
-
-        height: auto;
     }
 
 
@@ -610,6 +482,7 @@ body {
     .fotka img {
         width: 100%;
         height: 100%;
+
         object-fit: contain;
     }
 
@@ -662,9 +535,11 @@ body {
         height: 64px;
 
         display: grid;
+
         grid-template-columns: 1fr 1fr auto;
 
         gap: 6px;
+
         padding: 8px 10px;
 
         border-radius: 9px;
@@ -680,6 +555,7 @@ body {
 
     .vysledek button {
         padding: 8px 10px;
+
         font-size: 12px;
     }
 
