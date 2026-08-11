@@ -296,7 +296,7 @@ const mista = [
 // NASTAVENÍ HRY
 // ========================================
 
-const POCET_KOL = 5;
+const POCET_KOL = 8;
 
 const VYCHOZI_LAT = 50.7671;
 const VYCHOZI_LON = 15.0562;
