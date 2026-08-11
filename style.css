@@ -1,4 +1,4 @@
-```css
+
 * {
     box-sizing: border-box;
 }
@@ -398,7 +398,6 @@ body {
 }
 
 
-```css
 /* ========================================
    MOBIL
    ======================================== */
@@ -438,7 +437,6 @@ body {
         flex: 0 0 36px;
 
         width: 100%;
-        max-width: 100%;
         min-width: 0;
 
         height: 36px;
@@ -521,6 +519,9 @@ body {
 
         object-fit: contain;
     }
+
+    /* Na mobilu se fotka zvětšuje
+       kliknutím kamkoliv na ni */
 
     .zvetsit-fotku {
         display: none;
@@ -605,7 +606,10 @@ body {
 
         display: grid;
 
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 1fr)
+            auto;
 
         gap: 6px;
 
@@ -630,10 +634,11 @@ body {
         font-size: 12px;
     }
 }
-```
 
 
-/* Overlay */
+/* ========================================
+   OVERLAY FOTOGRAFIE
+   ======================================== */
 
 .fotka-overlay {
     position: fixed;
@@ -668,7 +673,9 @@ body {
 }
 
 
-/* Zavírací tlačítko */
+/* ========================================
+   ZAVÍRACÍ TLAČÍTKO
+   ======================================== */
 
 .zavrit-fotku {
     position: absolute;
@@ -695,72 +702,6 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 900px) {
-
-    html,
-    body {
-        width: 100%;
-        max-width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .hra {
-        width: 100%;
-        max-width: 100%;
-        height: 100dvh;
-        padding: 6px;
-        overflow: hidden;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .herni-plocha {
-        width: 100%;
-        flex: 1;
-        min-height: 0;
-
-        display: flex;
-        flex-direction: column;
-
-        gap: 6px;
-    }
-
-    .fotka {
-        width: 100%;
-        flex: 0 0 29%;
-
-        height: auto;
-        min-height: 0;
-
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .prava-strana {
-        width: 100%;
-        flex: 1;
-        min-width: 0;
-        min-height: 0;
-
-        display: flex;
-        flex-direction: column;
-
-        gap: 6px;
-    }
-
-    .mapa {
-        width: 100%;
-        flex: 1;
-        min-width: 0;
-        min-height: 0;
-
-        height: auto;
-    }
-}
 
 /* ========================================
    ZVĚTŠENÍ FOTOGRAFIE – DESKTOP
@@ -805,7 +746,7 @@ body {
 
 
 /* ========================================
-   MOBIL – TLAČÍTKO SCHOVAT
+   DESKTOP / MOBIL – TLAČÍTKO
    ======================================== */
 
 @media (max-width: 900px) {
@@ -814,4 +755,3 @@ body {
         display: none;
     }
 }
-```
