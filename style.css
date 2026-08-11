@@ -755,3 +755,62 @@ body {
         display: none;
     }
 }
+
+/* ========================================
+   VÝSLEDKY – MOBIL
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    .konec-hry {
+        width: 100%;
+        max-width: 100%;
+
+        height: calc(100dvh - 48px);
+        max-height: calc(100dvh - 48px);
+
+        margin: 0;
+        padding: 24px 16px;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        border-radius: 12px;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .konec-hry h2 {
+        margin: 0 0 22px;
+
+        font-size: 28px;
+    }
+
+    .finalni-skore {
+        margin-bottom: 16px;
+    }
+
+    .finalni-skore strong {
+        font-size: 52px;
+    }
+
+    .prumer {
+        margin-bottom: 22px;
+    }
+
+    .prehled-kol {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 20px auto;
+    }
+
+    .prehled-kolo {
+        padding: 10px 12px;
+    }
+
+    #novaHra {
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+}
